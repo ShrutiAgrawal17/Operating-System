@@ -19,11 +19,8 @@ int main()
  ct[0]=bt[0];
      
     for(i=0;i<n;i++)
-    {
-        ct[i]=ct[i-1]+bt[i];//completion time
-    }
-     
-           
+     ct[i]=ct[i-1]+bt[i];//completion time
+   
     for(i=0;i<n;i++)
     tat[i]=ct[i]-at[i];//turn around time
     
