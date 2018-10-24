@@ -8,6 +8,6 @@
 7.Producer Consumer with thread
 8.Readers Writer Problem
 9.Bankers problem
-10.
+
 
 
